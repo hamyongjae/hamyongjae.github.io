@@ -381,6 +381,8 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
+  position: relative;
+  top: -300px;
   padding-left: 90px;
   text-align: center;
 }
