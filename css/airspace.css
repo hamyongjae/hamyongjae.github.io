@@ -360,9 +360,10 @@ font header .navbar-default .navbar-nav li a:hover {
 #global-header {
   background: url("../img/IMG_5806.JPG") no-repeat;
   background-size: cover;
-  padding-top: 150px;
+  padding-top: 400px;
   padding-bottom: 107px;
   position: relative;
+  background-position: 0% -90px;
   background-attachment: fixed;
 }
 #global-header:before {
