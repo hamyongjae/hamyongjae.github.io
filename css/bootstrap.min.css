@@ -6010,7 +6010,9 @@ button.close {
 	-webkit-transform: translate(0, 0);
 	-ms-transform: translate(0, 0);
 	-o-transform: translate(0, 0);
-	transform: translate(0, 0)
+	transform: translate(0, 0);
+	width: 90%;
+	height: 90%;
 }
 
 .modal-open .modal {
@@ -6018,18 +6020,10 @@ button.close {
 	overflow-y: auto
 }
 
-/* .modal-dialog {
+.modal-dialog {
 	position: relative;
 	width: auto;
 	margin: 10px
-} */
-
-modal-dialog {
-	width: 80%; 
-	height: 80%; 
-	margin: 0; 
-	padding: 0;
-
 }
 
 .modal-content {
@@ -6039,7 +6033,6 @@ modal-dialog {
 	background-clip: padding-box;
 	border: 1px solid #999;
 	border: 1px solid rgba(0, 0, 0, .2);
-	min-height: 80%;
 	border-radius: 6px;
 	outline: 0;
 	-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
