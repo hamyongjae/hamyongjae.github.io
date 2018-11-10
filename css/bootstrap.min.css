@@ -4240,7 +4240,7 @@ textarea.input-group-sm>.form-control, textarea.input-group-sm>.input-group-addo
 	padding: 15px 15px;
 	font-size: 18px;
 	line-height: 20px;
-	/*2018.10.1 ·Î°í ¶§¹®¿¡ Ãß°¡ ÇÑºÎºÐ*/
+	/*2018.10.1 ï¿½Î°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½ ï¿½ÑºÎºï¿½*/
 	position: relative;
 	top: -50px;
     left: -70px;
@@ -6018,10 +6018,18 @@ button.close {
 	overflow-y: auto
 }
 
-.modal-dialog {
+/* .modal-dialog {
 	position: relative;
 	width: auto;
 	margin: 10px
+} */
+
+modal-dialog {
+	width: 80%; 
+	height: 80%; 
+	margin: 0; 
+	padding: 0;
+
 }
 
 .modal-content {
@@ -6031,6 +6039,7 @@ button.close {
 	background-clip: padding-box;
 	border: 1px solid #999;
 	border: 1px solid rgba(0, 0, 0, .2);
+	min-height: 80%;
 	border-radius: 6px;
 	outline: 0;
 	-webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
