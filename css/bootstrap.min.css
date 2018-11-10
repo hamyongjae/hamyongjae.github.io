@@ -1399,10 +1399,9 @@ a.bg-danger:hover {
 	border-bottom: 1px solid #eee
 }
 .temp-ul {
-	display: list-item;
     text-align: -webkit-match-parent;
 	list-style: inside;
-	font-size: 1em;
+	font-size: 1.2em;
 }
 ul, ol {
 	margin-top: 0;
