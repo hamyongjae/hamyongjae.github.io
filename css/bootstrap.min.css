@@ -1398,7 +1398,11 @@ a.bg-danger:hover {
 	margin: 40px 0 20px;
 	border-bottom: 1px solid #eee
 }
-
+.temp-li {
+	display: list-item;
+    text-align: -webkit-match-parent;
+	list-style: inside;
+}
 ul, ol {
 	margin-top: 0;
 	margin-bottom: 10px
