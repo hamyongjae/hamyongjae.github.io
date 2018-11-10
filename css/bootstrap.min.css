@@ -1403,6 +1403,12 @@ a.bg-danger:hover {
 	list-style: inside;
 	font-size: 1.2em;
 }
+.temp-h3-700 {
+	font-weight: 700;
+}
+.temp-h3-500 {
+	font-weight: 500;
+}
 ul, ol {
 	margin-top: 0;
 	margin-bottom: 10px
