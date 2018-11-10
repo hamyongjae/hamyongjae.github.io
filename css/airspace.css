@@ -357,7 +357,7 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	Slider-work Start
 --*/
-#global-header-project {
+#global-header {
   background: url("../img/IMG_5806.JPG") no-repeat;
   background-size: cover;
   padding-top: 400px;
@@ -366,7 +366,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-position: 0% -90px;
   background-attachment: fixed;
 }
-#global-header-project:before {
+#global-header:before {
   content: "";
   position: absolute;
   left: 0;
