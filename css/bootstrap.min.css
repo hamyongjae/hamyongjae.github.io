@@ -6013,7 +6013,9 @@ button.close {
 	-webkit-transform: translate(0, -25%);
 	-ms-transform: translate(0, -25%);
 	-o-transform: translate(0, -25%);
-	transform: translate(0, -25%)
+	transform: translate(0, -25%);
+	width: 80%;
+	height: 90%;
 }
 
 .modal.in .modal-dialog {
@@ -6088,8 +6090,8 @@ button.close {
 .modal-body {
 	position: relative;
 	padding: 15px;
-	margin-left: 30px;
-	margin-right: 30px;
+	margin-left: 10px;
+    margin-right: 10px;
 }
 
 .modal-footer {
