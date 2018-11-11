@@ -3,7 +3,8 @@ layout: page
 title: Our Work
 permalink: /work/
 ---
-<html class="no-js">
+<script src="http://www.w3schools.com/lib/w3data.js"></script>
+
 <!-- Slider Start -->
 <section id="global-header">
   <div class="container">
@@ -110,7 +111,10 @@ permalink: /work/
         </button>
       </div>
       <div class="modal-body">
-        {% include portfolio/Spring_1.html %}
+        <div w3-include-html="content.html"></div>
+        <script>
+            w3IncludeHTML();
+            </script>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -243,4 +247,3 @@ permalink: /work/
   </div>
 </section>
 
-</html>
