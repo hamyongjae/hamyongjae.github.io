@@ -38,7 +38,7 @@ permalink: /work/
             <div class="portfolio-contant">
               <ul id="portfolio-contant-active">
                 <li class="mix Spring">
-                  <a data-toggle="modal" href="#Spring_1">
+                  <a data-toggle="modal" href="#portfolio1">
                     <img src="{{ site.baseurl }}/img/portfolio/portfolio1/IMG_portfolio1_logo.jpg" alt="">
                     <div class="overly">
                       <div class="position-center">
@@ -50,7 +50,7 @@ permalink: /work/
                   </a>
                 </li>
                 <li class="mix BlockChain">
-                  <a data-toggle="modal" href="#BlockChain_1">
+                  <a data-toggle="modal" href="#portfolio2">
                     <img src="{{ site.baseurl }}/img/portfolio/portfolio2/IMG_portfolio2_logo.jpg" alt="">
                     <div class="overly">
                       <div class="position-center">
@@ -61,7 +61,7 @@ permalink: /work/
                   </a>
                 </li>
                 <li class="mix IOT">
-                  <a data-toggle="modal" href="#Spring_1">
+                  <a data-toggle="modal" href="#portfolio3">
                     <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_logo.jpg" alt="">
                     <div class="overly">
                       <div class="position-center">
@@ -72,7 +72,7 @@ permalink: /work/
                   </a>
                 </li>
                 <li class="mix IOT">
-                  <a data-toggle="modal" href="#IOT_1">
+                  <a data-toggle="modal" href="#portfolio4">
                     <img src="{{ site.baseurl }}/img/portfolio/portfolio4/IMG_portfolio4_logo.jpg" alt="">
                     <div class="overly">
                       <div class="position-center">
@@ -102,11 +102,11 @@ permalink: /work/
   </section>
   
   <!-- Modal -->
-  <div class="modal fade" id="Spring_1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal fade" id="portfolio1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-  
+           <!-- <h5 class="modal-title" id="exampleModalLongTitle">title</h5> -->
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -121,17 +121,17 @@ permalink: /work/
       </div>
     </div>
   </div>
-  <div class="modal fade" id="NodeJS_1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal fade" id="portfolio1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLongTitle">제목!</h5>
+          <!-- <h5 class="modal-title" id="exampleModalLongTitle">title</h5> -->
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          ...
+          {% include portfolio2.html %}
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
