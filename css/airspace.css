@@ -357,8 +357,8 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	Slider-work Start
 --*/
-#global-header {
-  /* background: url("../img/IMG_5806.JPG") no-repeat; */
+#global-header-work {
+  background: url("../img/IMG_5806.JPG") no-repeat;
   background-size: cover;
   padding-top: 400px;
   padding-bottom: 107px;
@@ -366,7 +366,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background-position: 0% -90px;
   background-attachment: fixed;
 }
-#global-header:before {
+#global-header-work:before {
   content: "";
   position: absolute;
   left: 0;
@@ -378,7 +378,7 @@ font header .navbar-default .navbar-nav li a:hover {
   background: linear-gradient(to left, #928dab00, #1f1c2c33 70%);
   opacity: 0.8;
 }
-#global-header .block {
+#global-header-work .block {
   color: #E3E3E4;
   margin: 0 auto;
   position: relative;
@@ -386,7 +386,7 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-left: 90px;
   text-align: center;
 }
-#global-header .block h1 {
+#global-header-work .block h1 {
   font-weight: 100;
   font-size: 45px;
   letter-spacing: 6px;
@@ -394,7 +394,95 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-top: 0;
   text-transform: capitalize;
 }
-#global-header .block p {
+#global-header-work .block p {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+#global-header-blog {
+  background: url("../img/IMG_5806.JPG") no-repeat;
+  background-size: cover;
+  padding-top: 400px;
+  padding-bottom: 107px;
+  position: relative;
+  background-position: 0% -90px;
+  background-attachment: fixed;
+}
+#global-header-blog:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #928dab00, #1f1c2c33 70%);
+  opacity: 0.8;
+}
+#global-header-blog .block {
+  color: #E3E3E4;
+  margin: 0 auto;
+  position: relative;
+  top: -300px;
+  padding-left: 90px;
+  text-align: center;
+}
+#global-header-blog .block h1 {
+  font-weight: 100;
+  font-size: 45px;
+  letter-spacing: 6px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+#global-header-blog .block p {
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+
+#global-header-contact {
+  background: url("../img/IMG_5806.JPG") no-repeat;
+  background-size: cover;
+  padding-top: 400px;
+  padding-bottom: 107px;
+  position: relative;
+  background-position: 0% -90px;
+  background-attachment: fixed;
+}
+#global-header-contact:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to left, #928dab00, #1f1c2c33 70%);
+  opacity: 0.8;
+}
+#global-header-contact .block {
+  color: #E3E3E4;
+  margin: 0 auto;
+  position: relative;
+  top: -300px;
+  padding-left: 90px;
+  text-align: center;
+}
+#global-header-contact .block h1 {
+  font-weight: 100;
+  font-size: 45px;
+  letter-spacing: 6px;
+  padding-bottom: 15px;
+  margin-top: 0;
+  text-transform: capitalize;
+}
+#global-header-contact .block p {
   font-size: 16px;
   font-weight: 300;
   letter-spacing: 1px;
