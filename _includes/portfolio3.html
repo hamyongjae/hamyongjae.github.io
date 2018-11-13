@@ -6,24 +6,35 @@
 
     <h2><strong>서론</strong></h2><br>
 
-        <h4>본 연구에서는 일상생활에서 불편함을 느낄 법한 여러가지 상황을 떠올려 봤을 때 불편함을 가장 많이 해소할 수 있고, 실현 가능성 있는 기능을  제어할 수 있도록 구현하였다, 버튼을 누르면 블루투스 무선통신을 통해 휴대폰 조명이 ON/OFF 되거나, 비상전화가 걸리거나, 음악이 ON/OFF 되는 기능을 구현하였고, 뿐만 아니라, 스마트 플러그를 별도로 제작하여 휴대폰을 통해 콘센트에서 사용되는 전기를 제어할 수 있는 기능을 구현함으로써, 사람이 직접 움직이지 않고, 원격제어를 통해 불필요한 움직임을 줄일 수 있는 디바이스 제작을 목표로 하였다. 본 논문에서는 안드로이드 플랫폼을 기반으로 자바언어를 이용해 어플리케이션을 만들어 구현하였고, 스마트버튼 디바이스는 아두이노(Arduino)를 활용해 버튼의 모형과 회로도를 구성하였고 플러그의 디바이스는 실제 가정용 플러그(220V)를 구매해 재조립하여 제작하였다.</h4><br>
-    
-        <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_1.jpg" style="max-width: 100%; height: auto;"><br><br><br>
-        <h3><strong>[사진1] 작품 구상도</strong></h3>
+    <h4>본 연구에서는 일상생활에서 불편함을 느낄 법한 여러가지 상황을 떠올려 봤을 때 불편함을 가장 많이 해소할 수 있고, 실현 가능성 있는 기능을 제어할 수 있도록 구현하였다, 버튼을 누르면 블루투스
+        무선통신을 통해 휴대폰 조명이 ON/OFF 되거나, 비상전화가 걸리거나, 음악이 ON/OFF 되는 기능을 구현하였고, 뿐만 아니라, 스마트 플러그를 별도로 제작하여 휴대폰을 통해 콘센트에서 사용되는
+        전기를 제어할 수 있는 기능을 구현함으로써, 사람이 직접 움직이지 않고, 원격제어를 통해 불필요한 움직임을 줄일 수 있는 디바이스 제작을 목표로 하였다. 본 논문에서는 안드로이드 플랫폼을 기반으로
+        자바언어를 이용해 어플리케이션을 만들어 구현하였고, 스마트버튼 디바이스는 아두이노(Arduino)를 활용해 버튼의 모형과 회로도를 구성하였고 플러그의 디바이스는 실제 가정용 플러그(220V)를 구매해
+        재조립하여 제작하였다.</h4><br>
 
-        <h4>본 프로젝트에서는 ESP8266 모듈과 TCP/IP 소켓 통신을 이용하여 소형경량 데이터 전송장치를 설계하였다. 본 장치는 Wifi연결 기능을 지원하는 Esp8266모듈을 사용하여 서버와 클라이언트를 구성하고, TCP/IP의 소켓 통신을 사용하여 양방향 데이터 전송을 지원하도록 구성하였다. 네트워크는 홈 네트워크와 같이 공유기를 중심으로 사설 IP를 부여하여 Esp8266이 각각 독립적인 IP를 가지게 설계하였다. 본 장치는 양방향으로 데이터를 전송 할 수 있고, 서버 측에서 각각의 클라이언트 데이터들을 저장할 수 있다.</h4><br>
-    
-        <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_2.jpg" style="max-width: 100%; height: auto;"><br><br><br>
-        <h3><strong>[사진2] Pin diagram of ESP8266</strong></h3>
+    <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_1.jpg" style="max-width: 100%; height: auto;"><br><br><br>
+    <h4><strong>[사진1] 작품 구상도</strong></h4><br>
 
-        <h4>Esp8266은 내부는 Tensilica의 L106 Diamond 시리즈 32-bit 프로세스와 SRAM을 탑재하여 보다 저전력에서 고성능 동작이 가능하다. 센서와 같은 외부적인 데이터 를 GPIO(General Purpose Input/Output)를 통해 제공 받 고, 아날로그 데이터도 1 채널 받을 수 있다. 또한 내부 Flash memory에 특정 펌웨어를 업로드 하여 보다 쉬운 MCU(Micro Controller Unit) 컨트롤이 가능하다.
-            ESP 8266 모듈을 선택한 이유는 Wifi soft ap동작, Wifi direct 연결 TCP/IP로 데이터 전송 지원을 하기 위해서다. Serial로 아두이노와 연결한 다음 아두이노에서 AT command를 전송해서 모듈을 제어 가능하다. Wifi 모듈의 baudrate(전송속도)가 115200으로 설정되어 있는데 SoftwareSerial라이브러리가 지원하는 최대 baudrate는 19200 이기 때문에 SoftwareSerial 로 제어할 경우 문제가 생겼다. 따라서 아두이노 0번 1번 핀을 이용해 Hardware serial로 제어해야 한다. 일반적인 아두이노 보드에는 Hardware serial 을 하나만 제공하기 때문에 0, 1번 핀을 사용하는 경우 PC로 Debug 데이터를 출력할 수가 없기 때문에 별도의 회로를 구성하였다.</h4><br>
+    <h4>본 프로젝트에서는 ESP8266 모듈과 TCP/IP 소켓 통신을 이용하여 소형경량 데이터 전송장치를 설계하였다. 본 장치는 Wifi연결 기능을 지원하는 Esp8266모듈을 사용하여 서버와 클라이언트를
+        구성하고, TCP/IP의 소켓 통신을 사용하여 양방향 데이터 전송을 지원하도록 구성하였다. 네트워크는 홈 네트워크와 같이 공유기를 중심으로 사설 IP를 부여하여 Esp8266이 각각 독립적인 IP를
+        가지게 설계하였다. 본 장치는 양방향으로 데이터를 전송 할 수 있고, 서버 측에서 각각의 클라이언트 데이터들을 저장할 수 있다.</h4><br>
+
+    <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_2.jpg" style="max-width: 100%; height: auto;"><br><br><br>
+    <h4><strong>[사진2] Pin diagram of ESP8266</strong></h4><br>
+
+    <h4>Esp8266은 내부는 Tensilica의 L106 Diamond 시리즈 32-bit 프로세스와 SRAM을 탑재하여 보다 저전력에서 고성능 동작이 가능하다. 센서와 같은 외부적인 데이터 를
+        GPIO(General Purpose Input/Output)를 통해 제공 받 고, 아날로그 데이터도 1 채널 받을 수 있다. 또한 내부 Flash memory에 특정 펌웨어를 업로드 하여 보다 쉬운
+        MCU(Micro Controller Unit) 컨트롤이 가능하다.
+        ESP 8266 모듈을 선택한 이유는 Wifi soft ap동작, Wifi direct 연결 TCP/IP로 데이터 전송 지원을 하기 위해서다. Serial로 아두이노와 연결한 다음 아두이노에서 AT
+        command를 전송해서 모듈을 제어 가능하다. Wifi 모듈의 baudrate(전송속도)가 115200으로 설정되어 있는데 SoftwareSerial라이브러리가 지원하는 최대 baudrate는
+        19200 이기 때문에 SoftwareSerial 로 제어할 경우 문제가 생겼다. 따라서 아두이노 0번 1번 핀을 이용해 Hardware serial로 제어해야 한다. 일반적인 아두이노 보드에는
+        Hardware serial 을 하나만 제공하기 때문에 0, 1번 핀을 사용하는 경우 PC로 Debug 데이터를 출력할 수가 없기 때문에 별도의 회로를 구성하였다.</h4><br>
 
 
-        <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_3.jpg" style="max-width: 100%; height: auto;"><br><br><br>
-        <h3><strong>[사진3] ESP 8266 회로도</strong></h3>
+    <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_3.jpg" style="max-width: 100%; height: auto;"><br><br><br>
+    <h4><strong>[사진3] ESP 8266 회로도</strong></h4><br>
 
-        <pre style="display: inline-block; border:1px solid #0000002e;"><code>
+    <pre style="display: inline-block; border:1px solid #0000002e;"><code>
         #include &lt;ESP8266WiFi.h&gt;
 
             const char *ssid = "your_ssid";
@@ -74,12 +85,206 @@
         </code>
         </pre><br>
 
-        <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_4.jpg" style="max-width: 100%; height: auto;"><br><br><br>
-        <h3><strong>[사진4] 안드로이드 신호 전송방식</strong></h3>
-        
-        <h4>아두이노에서 Wifi를 사용하기 위한 ESP8266 모듈을 적합한 핀번호에 연결하였다. 이와 같이 아두이노와 안드로이드 간에 TCP/IP 통신을 위한 환경을 조성했다. 이제 안드로이드에서 각각의 기능을 위한 신호 전송을 해야하는데 각각의 신호를 받고 실행할 기능을 구별하기 위해 클릭, 롱 프레스, 더블 클릭으로 3가지 신호를 각각 구별하였다. 클릭을 한번 짧게 누르게 되면 특정 번호로 전화가 걸리고, 버튼을 길게 꾸욱 누르면 조명이 ON/OFF 되고, 버튼을 더블 클릭하게 되면 음악이 ON/OFF가 되는 기능을 각각 구현하였다. 위와 같은 신호를 구별하기 위해 아두이노에서 전송하는 신호를 안드로이드에 받을 때 1,2,3번으로 나누어서 각각의 기능을 구별하였다.</h4><br>
+    <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_4.jpg" style="max-width: 100%; height: auto;"><br><br><br>
+    <h4><strong>[사진4] 안드로이드 신호 전송방식</strong></h4><br>
 
-        <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_5.jpg" style="max-width: 100%; height: auto;"><br><br><br>
-        <h3><strong>[사진5] 안드로이드 레이아웃</strong></h3>
+    <h4>아두이노에서 Wifi를 사용하기 위한 ESP8266 모듈을 적합한 핀번호에 연결하였다. 이와 같이 아두이노와 안드로이드 간에 TCP/IP 통신을 위한 환경을 조성했다. 이제 안드로이드에서 각각의
+        기능을 위한 신호 전송을 해야하는데 각각의 신호를 받고 실행할 기능을 구별하기 위해 클릭, 롱 프레스, 더블 클릭으로 3가지 신호를 각각 구별하였다. 클릭을 한번 짧게 누르게 되면 특정 번호로 전화가
+        걸리고, 버튼을 길게 꾸욱 누르면 조명이 ON/OFF 되고, 버튼을 더블 클릭하게 되면 음악이 ON/OFF가 되는 기능을 각각 구현하였다. 위와 같은 신호를 구별하기 위해 아두이노에서 전송하는 신호를
+        안드로이드에 받을 때 1,2,3번으로 나누어서 각각의 기능을 구별하였다.</h4><br>
 
-    </div>
+    <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_5.jpg" style="max-width: 100%; height: auto;"><br><br><br>
+    <h4><strong>[사진5] 안드로이드 레이아웃</strong></h4><br>
+
+    <h4>[사진5]에서 볼 수 있듯이 Set sever 버튼을 통해 서버가 열리게 되면 아두이노에서 미리 설정된 IP와 포트번호로 접속을 하게 된다. 접속을 함으로써 아두이노 스케치에서 셋팅된 각각의 방법으로
+        신호를 구별하여 call, music, flash on/off 기능을 수행할 수 있다. 레이아웃 자체에서도 별도의 버튼을 추가 하여서 사용자에게 좀 더 편리한 접근성을 제공할 수 있다. 연결
+        종료시에는 close sever 버튼을 누르면 연결이 종료되었다는 Toast 메시지메세 함께 연결이 끝나는 것을 확인할 수 있다.</h4><br>
+
+    <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_6.jpg" style="max-width: 100%; height: auto;"><br><br><br>
+    <h4><strong>[사진6] HC - 06</strong></h4><br>
+
+    <h4>
+        [사진6]는 HC-06 블루투스 모듈의 핀이다. 총 4개의 핀이 있으며 위에서부터 신호를 받기위한 핀인 RX 핀, 신호를 전송하기 위한 TX핀, GND(Ground), VCC 핀이 있다. 모듈의
+        전원은 3.6V ~ 6V 사이에서 동작하므로 VCC핀은 아두이노의 5V 단자에 연결하면 된다. 모듈에 따라 3.3V에서 동작하는 모듈도 있으므로 규격을 꼭 확인하여 전원을 연결해야 한다. 본
+        논문에서는 5V로 사용할 수 있는 HC-06 시리얼 모듈을 사용하였다.
+        HC-06 의 옵션 값들은 시리얼로 연결하여 문자열로 직접 값들을 날리는 방법으로 설정하였다. 그리고, 시리얼 포트는 하나밖에 없기 때문에 아두이노 IDE 시리얼 모니터의 커맨드 창으로 명령어를 주기
+        위하여 디지털 I/O 핀을 이용한 소프트웨어 시리얼을 사용했다.
+    </h4>
+
+    <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_7.jpg" style="max-width: 100%; height: auto;"><br><br><br>
+    <h4><strong>[사진7] HC - 06[그림10] HC-06 옵션값을 설정하기 위한 명령어</strong></h4><br>
+
+    <pre style="display: inline-block; border:1px solid #0000002e;"><code>
+    
+            #include &lt;SoftwareSerial.h&gt; 
+
+            #define rxPin 2 
+            #define txPin 3 
+            SoftwareSerial SwSerial(txPin, rxPin);
+            char data;
+            
+            void setup() {
+                Serial.begin(9600);
+                SwSerial.begin(9600);
+                Serial.println("Ready..");
+                } 
+            void loop() {
+            Serial.flush();
+            Serial.print("cmd : ");
+            while(!Serial.available());
+                // HC-06 으로 명령어를 날린다.
+            while(Serial.available()) {
+            data = Serial.read();
+            if(data == -1) break;
+            SwSerial.print(data);
+            Serial.print(data);
+            delay(1);
+            }
+                Serial.println(); 
+            // HC-06에서 처리할 시간을 준다. 
+            delay(1000); 
+            Serial.print("return : "); 
+            // HC-06 으로 부터 받아온 리턴 값을 출력한다. 
+            while(SwSerial.available()) {
+            data = SwSerial.read();
+            if(data == -1) break;
+            Serial.print(data);
+            delay(1);
+            }
+            Serial.print("\n\n"); }
+            }
+            </code></pre><br>
+    <h4><strong></strong>[사진8] 시리얼모니터를 통해 옵션값을 HC-06으로 전송하는 스케치 코드</strong></h4><br>
+
+    <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_8.jpg" style="max-width: 100%; height: auto;"><br><br><br>
+    <h4><strong>[사진8] HC-06 옵션값을 설정하기 위한 회로도</strong>
+        <h4><br>
+
+            <h4>
+                위 회로대로 연결해도 문제가 없는 모듈을 사용했다. SoftwareSerial 을 사용했기 때문에 0번과 1번 핀이 아닌 2번과 3번 핀에 연결하였다. 본 논문에서는 5v 전용으로
+                간편하게 사용할 수 있는 블루투스 모듈을 사용했다. 이 와 같은 상황이 아닌 경우는 그에 맞게 잘 연결해야 한다.
+            </h4>
+
+            <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_9.jpg" style="max-width: 100%; height: auto;"><br><br><br>
+            <h4><strong>[사진9] AT 커멘드 옵션 변경 결과 </strong>
+                <h4><br>
+
+                    <pre style="display: inline-block; border:1px solid #0000002e;"><code>
+    
+                    import android.bluetooth.BluetoothAdapter;
+                    import android.content.Intent; 
+                    import android.os.Bundle; 
+                    import ketai.net.bluetooth.*; 
+                    import ketai.ui.*;
+                    import ketai.net.*; 
+                    import controlP5.*;
+                    
+                    KetaiBluetooth bt;  
+                    KetaiList klist;
+                    ControlP5 cp5;
+                    
+                    void onCreate(Bundle savedInstanceState) {
+                    super.onCreate(savedInstanceState);
+                    bt = new KetaiBluetooth(this);
+                    }
+                    
+                    void onActivityResult(int requestCode, int resultCode, Intent data) {
+                    bt.onActivityResult(requestCode, resultCode, data);
+                    }
+                    
+                    //*******************************************************
+                    //*******************************************************
+                    PFont fontMy; //declaring font
+                    boolean bReleased = true;   //no permament sending when finger boolean isConfiguring = true;
+                    String info = "";
+                    ArrayList devicesDiscovered = new ArrayList(); 
+                    //store in array the discovered device
+                    
+                    float resolutionRatio = 0.3;
+                    int width = int(480 * resolutionRatio);
+                    int height = int(800 * resolutionRatio);
+                    
+                    int myColor = color(255);
+                    int c1,c2;
+                    float n,n1;
+                    boolean flag = false;
+                    
+                    void setup(){
+                    //android screen setup
+                    size(displayWidth, displayHeight);
+                    width = displayWidth;
+                    height = displayHeight;
+                    orientation(PORTRAIT);
+                    bt.start();//블루투스 시작!
+                    frameRate(20);//프레임 수치
+                    isConfiguring = true;
+                    //버튼을 생성합니다.
+                    cp5 = new ControlP5(this);
+                    
+                    cp5.addButton("buttonA")
+                        .setSwitch(true)
+                        .setPosition(width/2-63,height/2-79)
+                        .setImages(loadImage("on.png"), loadImage("on.png"), loadImage("off.png"))//버튼이미지
+                        .updateSize();
+                    }//setup
+
+                    void draw() {
+                        if (isConfiguring){
+                    ArrayList names;
+                    //create the BtSerial object that will handle the connectio 
+                    //블루투스 장비목록가져오기기
+                    klist = new KetaiList(this, bt.getPairedDeviceNames()); 
+                    isConfiguring = false; //stop selecting device
+                    }
+                    //color change
+                    background(myColor);
+                    myColor = lerpColor(c1,c2,n);
+                    n += (1-n)* 0.1; 
+                    }
+                    //button Event Method
+                    public void controlEvent(ControlEvent theEvent) {
+                    println(theEvent.getController().getName());
+                    n = 0;  
+                    }
+                    
+                    public void buttonA(int theValue) {
+                    if(flag){
+                        String data = "o";
+                        bt.broadcast(data.getBytes());
+                    c1 = c2;
+                        c2 = color(200,160,100);
+                        flag = false;
+                        println(" ON ---------->a button event from buttonA: "+theValue);
+                    }else{
+                        c1 = c2;
+                        c2 = color(40,30,60);
+                        String data = "f";
+                        bt.broadcast(data.getBytes());
+                    flag = true;
+                        println(" OFF ---------->a button event from buttonA: "+theValue);
+                    }
+                    }//buttonA
+                    
+                    
+                    void onKetaiListSelection(KetaiList klist)
+                    {
+                    String selection = klist.getSelection(); //select the device to connect
+                    bt.connectToDeviceByName(selection); //connect to the device 
+                    klist = null; //dispose of bluetooth list for now
+                    }
+                    
+                    //Call back method to manage data received
+                    void onBluetoothDataEvent(String who, byte[] data)
+                    {
+                    if (isConfiguring){
+                    return;
+                    }
+                    //received
+                    info += new String(data);
+                    if(info.length() > 150)  //clean the words on screen if string to long
+                    info = "";
+                    }//END of Android processing coding
+
+                    </code></pre><br>
+
+</div>
