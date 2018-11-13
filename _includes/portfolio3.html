@@ -1,16 +1,83 @@
 <div style="text-align: left; margin-left: 80px; margin-right: 80px;">
 
-    <h1><strong>블루투스와 Wifi무선통신을 이용한 Smart button</strong></h1><br>
+    <h1 style="text-align: center"><strong>블루투스와 Wifi무선통신을 이용한 Smart button</strong></h1><br><br><br>
 
-    <h2><strong>서론</strong></h2>
+    <h2><strong>서론</strong></h2><br>
 
         <h3>본 연구에서는 일상생활에서 불편함을 느낄 법한 여러가지 상황을 떠올려 봤을 때 불편함을 가장 많이 해소할 수 있고, 실현 가능성 있는 기능을  제어할 수 있도록 구현하였다, 버튼을 누르면 블루투스 무선통신을 통해 휴대폰 조명이 ON/OFF 되거나, 비상전화가 걸리거나, 음악이 ON/OFF 되는 기능을 구현하였고, 뿐만 아니라, 스마트 플러그를 별도로 제작하여 휴대폰을 통해 콘센트에서 사용되는 전기를 제어할 수 있는 기능을 구현함으로써, 사람이 직접 움직이지 않고, 원격제어를 통해 불필요한 움직임을 줄일 수 있는 디바이스 제작을 목표로 하였다. 본 논문에서는 안드로이드 플랫폼을 기반으로 자바언어를 이용해 어플리케이션을 만들어 구현하였고, 스마트버튼 디바이스는 아두이노(Arduino)를 활용해 버튼의 모형과 회로도를 구성하였고 플러그의 디바이스는 실제 가정용 플러그(220V)를 구매해 재조립하여 제작하였다.</h3>
     
         <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_1.jpg" style="max-width: 100%; height: auto;"><br><br><br>
-        
-        <h3><strong>[그림1] 작품 구상도</strong></h3>
+        <h3><strong>[사진1] 작품 구상도</strong></h3>
 
-
-
+        <h3>본 프로젝트에서는 ESP8266 모듈과 TCP/IP 소켓 통신을 이용하여 소형경량 데이터 전송장치를 설계하였다. 본 장치는 Wifi연결 기능을 지원하는 Esp8266모듈을 사용하여 서버와 클라이언트를 구성하고, TCP/IP의 소켓 통신을 사용하여 양방향 데이터 전송을 지원하도록 구성하였다. 네트워크는 홈 네트워크와 같이 공유기를 중심으로 사설 IP를 부여하여 Esp8266이 각각 독립적인 IP를 가지게 설계하였다. 본 장치는 양방향으로 데이터를 전송 할 수 있고, 서버 측에서 각각의 클라이언트 데이터들을 저장할 수 있다.</h3>
     
-</div>
+        <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_2.jpg" style="max-width: 100%; height: auto;"><br><br><br>
+        <h3><strong>[사진2] Pin diagram of ESP8266</strong></h3>
+
+        <h3>Esp8266은 내부는 Tensilica의 L106 Diamond 시리즈 32-bit 프로세스와 SRAM을 탑재하여 보다 저전력에서 고성능 동작이 가능하다. 센서와 같은 외부적인 데이터 를 GPIO(General Purpose Input/Output)를 통해 제공 받 고, 아날로그 데이터도 1 채널 받을 수 있다. 또한 내부 Flash memory에 특정 펌웨어를 업로드 하여 보다 쉬운 MCU(Micro Controller Unit) 컨트롤이 가능하다.
+            ESP 8266 모듈을 선택한 이유는 Wifi soft ap동작, Wifi direct 연결 TCP/IP로 데이터 전송 지원을 하기 위해서다. Serial로 아두이노와 연결한 다음 아두이노에서 AT command를 전송해서 모듈을 제어 가능하다. Wifi 모듈의 baudrate(전송속도)가 115200으로 설정되어 있는데 SoftwareSerial라이브러리가 지원하는 최대 baudrate는 19200 이기 때문에 SoftwareSerial 로 제어할 경우 문제가 생겼다. 따라서 아두이노 0번 1번 핀을 이용해 Hardware serial로 제어해야 한다. 일반적인 아두이노 보드에는 Hardware serial 을 하나만 제공하기 때문에 0, 1번 핀을 사용하는 경우 PC로 Debug 데이터를 출력할 수가 없기 때문에 별도의 회로를 구성하였다.</h3>
+
+
+        <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_3.jpg" style="max-width: 100%; height: auto;"><br><br><br>
+        <h3><strong>[사진3] ESP 8266 회로도</strong></h3>
+
+        <pre style="display: inline-block; border:1px solid #0000002e;"><code>
+        #include &lt;ESP8266WiFi.h&gt;
+
+            const char *ssid = "your_ssid";
+            const char *password = "your_pass";
+        
+        
+        
+            void WiFiEvent(WiFiEvent_t event) {
+                Serial.printf("[WiFi-event] event: %d\n", event);  
+        
+        
+                switch(event) {
+                    case WIFI_EVENT_STAMODE_GOT_IP:
+                        Serial.println("WiFi connected");
+                        Serial.println("IP address: ");
+                        Serial.println(WiFi.localIP());
+                        break;
+                    case WIFI_EVENT_STAMODE_DISCONNECTED:
+                        Serial.println("WiFi lost connection");  
+                        break;
+                }
+            }
+        
+        
+            void setup() {
+                Serial.begin(115200);
+            
+                // delete old config
+                WiFi.disconnect(true);
+        
+                delay(1000);
+                WiFi.onEvent(WiFiEvent);
+            
+                WiFi.begin(ssid, password);
+            
+                Serial.println();
+                Serial.println();
+                Serial.println("Wait for WiFi... ");
+            }
+            
+        
+            
+        
+            void loop() {
+                delay(1000);
+            }
+
+        </code>
+        </pre><br>
+
+        <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_4.jpg" style="max-width: 100%; height: auto;"><br><br><br>
+        <h3><strong>[사진4] 안드로이드 신호 전송방식</strong></h3>
+        
+        <h3>아두이노에서 Wifi를 사용하기 위한 ESP8266 모듈을 적합한 핀번호에 연결하였다. 이와 같이 아두이노와 안드로이드 간에 TCP/IP 통신을 위한 환경을 조성했다. 이제 안드로이드에서 각각의 기능을 위한 신호 전송을 해야하는데 각각의 신호를 받고 실행할 기능을 구별하기 위해 클릭, 롱 프레스, 더블 클릭으로 3가지 신호를 각각 구별하였다. 클릭을 한번 짧게 누르게 되면 특정 번호로 전화가 걸리고, 버튼을 길게 꾸욱 누르면 조명이 ON/OFF 되고, 버튼을 더블 클릭하게 되면 음악이 ON/OFF가 되는 기능을 각각 구현하였다. 위와 같은 신호를 구별하기 위해 아두이노에서 전송하는 신호를 안드로이드에 받을 때 1,2,3번으로 나누어서 각각의 기능을 구별하였다.</h3>
+
+        <img src="{{ site.baseurl }}/img/portfolio/portfolio3/IMG_portfolio3_5.jpg" style="max-width: 100%; height: auto;"><br><br><br>
+        <h3><strong>[사진5] 안드로이드 레이아웃</strong></h3>
+
+    </div>
