@@ -402,7 +402,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #global-header-blog {
-  background: url("../img/IMG_blog.jpg") no-repeat;
+  /* background: url("../img/IMG_blog.jpg") no-repeat; */
   background-size: cover;
   padding-top: 400px;
   padding-bottom: 107px;
@@ -446,7 +446,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #global-header-contact {
-  background: url("../img/IMG_contact.jpg") no-repeat;
+  /* background: url("../img/IMG_contact.jpg") no-repeat; */
   background-size: cover;
   padding-top: 400px;
   padding-bottom: 107px;
