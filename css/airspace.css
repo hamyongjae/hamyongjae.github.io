@@ -358,6 +358,14 @@ font header .navbar-default .navbar-nav li a:hover {
 /*--
 	Slider-work Start
 --*/
+#portfolio
+{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 #global-header-work {
   background: url("../img/IMG_5806.JPG") no-repeat;
   background-size: cover;
