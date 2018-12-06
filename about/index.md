@@ -7,6 +7,10 @@ comments: false
 ---
     
 <!-- <center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center> -->
+{% capture images %}
+    https://user-images.githubusercontent.com/19748922/49604590-977f8d00-f9d1-11e8-916a-09499f7b2fd0.jpg
+{% endcapture %}
+
 
 ## Personel Information
 
@@ -45,13 +49,21 @@ comments: false
 
 
 
-## Preview
+## My Recent Photos
 
 {% capture images %}
     https://user-images.githubusercontent.com/19748922/49603481-bdeff900-f9ce-11e8-8a14-2fb2eabb19df.jpg
+    https://user-images.githubusercontent.com/19748922/49604590-977f8d00-f9d1-11e8-916a-09499f7b2fd0.jpg
+    https://user-images.githubusercontent.com/19748922/49604779-2a202c00-f9d2-11e8-92ff-31a11aec4430.JPG
+    https://user-images.githubusercontent.com/19748922/49604817-3f955600-f9d2-11e8-94d9-bc5667b2ccb3.JPG
+    https://user-images.githubusercontent.com/19748922/49604834-4d4adb80-f9d2-11e8-8412-35469c4ac079.JPG
+    https://user-images.githubusercontent.com/19748922/49604854-58057080-f9d2-11e8-877d-777bbe4387b7.JPG
+    https://user-images.githubusercontent.com/19748922/49605218-46709880-f9d3-11e8-831b-0386c7a2be0e.jpg
+    https://user-images.githubusercontent.com/19748922/49605220-47092f00-f9d3-11e8-91bc-895422d6722c.jpg
 {% endcapture %}
+<!--
 {% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
-<!-- 
+ 
 See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
 
 ## Getting Started
