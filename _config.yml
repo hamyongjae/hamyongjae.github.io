@@ -1,11 +1,11 @@
 # Site
-title:              WEB Developer, 함용재
+title:              WEB Developer,  함용재
 bio:                '안녕하세요, 제 포트폴리오 사이트에 방문해주셔서 감사합니다.'
 description:        'Just play. Have fun. Enjoy the game.'
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/용재_증명사진(200X200).png'
-background:         'assets/img/IMG_5807.jpg'
+logo:               'assets/img/main_logo.png'
+background:         'assets/img/main_background.jpg'
 tiled_bg:           true   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://hamyongjae.github.io
