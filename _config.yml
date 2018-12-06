@@ -1,14 +1,14 @@
 # Site
-title:              'WEb Developer' 함용재
-bio:                안녕하세요, 포트폴리오 사이트에 방문해 주셔서 감사합니다.'
-description:        "'끊임없이 연구하자'"
+title:              Moon
+bio:                'Minimal, one column jekyll theme.'
+description:        "Moon is a minimal, one column jekyll theme for your blog."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://hamyongjae.github.io/
+url:                https://hamyongjae.github.io
 
 # Jekyll
 permalink:          /:title/
