@@ -10,7 +10,7 @@ comments: false
 {% capture images %}
     https://user-images.githubusercontent.com/19748922/49604590-977f8d00-f9d1-11e8-916a-09499f7b2fd0.jpg
 {% endcapture %}
-
+{% include gallery images=images caption="Screenshots of Moon Theme" cols=1 %}
 
 ## Personel Information
 
@@ -61,9 +61,8 @@ comments: false
     https://user-images.githubusercontent.com/19748922/49605218-46709880-f9d3-11e8-831b-0386c7a2be0e.jpg
     https://user-images.githubusercontent.com/19748922/49605220-47092f00-f9d3-11e8-91bc-895422d6722c.jpg
 {% endcapture %}
-<!--
 {% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
- 
+<!--
 See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
 
 ## Getting Started
