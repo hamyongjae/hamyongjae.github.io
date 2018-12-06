@@ -14,14 +14,14 @@ comments: false
 * Birth : 1993 - 01 - 12
 * Phone : +82 10 6484 2434
 * E-mail : bbb12388@gmail.com 
-* Blog : http://studywithus.tistory.com/
-* Github : https://github.com/hamyongjae
+
+
 
 
 
 ## What I can do
 
-* JAVA ( Spring Framework )
+* JAVA ( Spring Framework , Mybatis)
 * C++
 * Python
 * HTML / CSS
@@ -31,6 +31,22 @@ comments: false
 * Oracle / MySQL / MongoDB / MariaDB
 * Linux
 * Solidity ( Etherium Development ) 
+
+
+
+
+
+## About myself
+
+‘혜안(慧眼)’을 갖추고 있는 개발자 함용재입니다.
+
+혜안(慧眼)은 급변하는 IT 산업의 흐름을 파악하는 통찰력을 말합니다. 폭넓은 경험을 통해서 혜안을 갖도록 노력하였습니다. 빠르게 변화하는 경쟁시대에서 살아남기 위해선 변화에 민감해야 합니다. 
+
+저는 아카데믹한 수단으로 지식을 쌓는 대신, 실무적인 역량을 쌓기위해 수많은 프로젝트를 진행하면서 다년간 다양한 기술을 터득해 왔습니다.
+
+스스로 생산자이자 동시에 소비자로서 쌓아올린 경험은, 클라이언트에게 보다 섬세하고 직접적이며, 실용적인 서비스를 제공할 것입니다.
+
+최신 트랜드 기술을 끊임없이 연구해, 이용자들에게 보이지 않는 작은 부분까지도 가장 효율적인 방법으로 구현하는 것이 저의 자부심입니다.
 
 
 
