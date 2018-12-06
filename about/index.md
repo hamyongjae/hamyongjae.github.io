@@ -10,7 +10,7 @@ comments: false
 {% capture images %}
     https://user-images.githubusercontent.com/19748922/49604590-977f8d00-f9d1-11e8-916a-09499f7b2fd0.jpg
 {% endcapture %}
-{% include gallery images=images caption="" cols=2 %}
+{% include gallery images=images caption="" cols=1 %}
 
 ## Personel Information
 
@@ -54,11 +54,15 @@ comments: false
 {% capture images %}
     https://user-images.githubusercontent.com/19748922/49603481-bdeff900-f9ce-11e8-8a14-2fb2eabb19df.jpg
     https://user-images.githubusercontent.com/19748922/49604779-2a202c00-f9d2-11e8-92ff-31a11aec4430.JPG
-    https://user-images.githubusercontent.com/19748922/49604817-3f955600-f9d2-11e8-94d9-bc5667b2ccb3.JPG
-    https://user-images.githubusercontent.com/19748922/49604834-4d4adb80-f9d2-11e8-8412-35469c4ac079.JPG
-    https://user-images.githubusercontent.com/19748922/49604854-58057080-f9d2-11e8-877d-777bbe4387b7.JPG
-    https://user-images.githubusercontent.com/19748922/49605218-46709880-f9d3-11e8-831b-0386c7a2be0e.jpg
-    https://user-images.githubusercontent.com/19748922/49605220-47092f00-f9d3-11e8-91bc-895422d6722c.jpg
+    https://user-images.githubusercontent.com/19748922/49606378-9b61de00-f9d6-11e8-88ef-dfdf01f50d7d.jpg
+    https://user-images.githubusercontent.com/19748922/49606379-9b61de00-f9d6-11e8-80b2-c7f8e3d68278.jpg
+    https://user-images.githubusercontent.com/19748922/49606380-9b61de00-f9d6-11e8-9e05-6610767b9b1f.jpg
+    https://user-images.githubusercontent.com/19748922/49606384-9bfa7480-f9d6-11e8-9854-7ec5aefab251.jpg
+    https://user-images.githubusercontent.com/19748922/49606461-c9472280-f9d6-11e8-9867-1e6e0d7ea275.JPG
+    https://user-images.githubusercontent.com/19748922/49606465-c9472280-f9d6-11e8-8283-e649d36c19f9.jpg
+    https://user-images.githubusercontent.com/19748922/49606466-c9472280-f9d6-11e8-8b40-6c1057801242.jpg
+    https://user-images.githubusercontent.com/19748922/49606459-c8ae8c00-f9d6-11e8-9f51-b1ebbbf55612.jpg
+    https://user-images.githubusercontent.com/19748922/49606458-c8ae8c00-f9d6-11e8-92cf-dd08f181e49f.jpg
 {% endcapture %}
 {% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
 <!--
