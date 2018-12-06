@@ -1,11 +1,11 @@
 # Site
 title:              WEB Developer, 함용재
 bio:                '안녕하세요, 제 포트폴리오 사이트에 방문해주셔서 감사합니다.'
-description:        '끊임없는 연구'
+description:        'Just play. Have fun. Enjoy the game.'
 reading_time:       true
 words_per_minute:   200
-logo:               'assets/img/logo.png'
-background:         'assets/img/placeholder-big.jpg'
+logo:               'assets/img/용재_증명사진(200X200).png'
+background:         'assets/img/IMG_5807.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://hamyongjae.github.io
@@ -37,7 +37,7 @@ disqus_shortname:   taylantatli
   #ad-client:
   #ad-slot:
 #bing-verify:
-email:  bbb12388@naver.com
+email:  bbb12388@google.com
 #twitter:            username
 #facebook:           username
 github-url:         hamyongjae
