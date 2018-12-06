@@ -6,20 +6,35 @@ date: 2018-12-07
 comments: false
 ---
     
-<center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center>
+<!-- <center><a href="http://taylantatli.github.io/Moon"><b>Moon</b></a> is a minimal, one column jekyll theme.</center> -->
+
+## Personel Information
+
+* Name : 함용재
+* Birth : 1993 - 01 - 12
+* Phone : +82 10 6484 2434
+* E-mail : bbb12388@gmail.com 
+* Blog : http://studywithus.tistory.com/
+* Github : https://github.com/hamyongjae
+
+
 
 ## What I can do
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
 
+* JAVA ( Spring Framework )
+* C++
+* Python
+* HTML / CSS
+* JavaScript (ES6) / Node.JS
+* Jquery
+* React
+* Oracle / MySQL / MongoDB / MariaDB
+* Linux
+* Solidity ( Etherium Development ) 
+
+
+
+<!-- 
 ## Preview
 
 {% capture images %}
@@ -34,4 +49,4 @@ See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub
 
 To learn how to install and use this theme check out the [Setup Guide](http://taylantatli.me/Moon/moon-theme/) for more information.
       
-[Install Moon](https://github.com/TaylanTatli/Moon){: .btn}
+[Install Moon](https://github.com/TaylanTatli/Moon){: .btn} -->
