@@ -10,7 +10,7 @@ comments: false
 {% capture images %}
     https://user-images.githubusercontent.com/19748922/49604590-977f8d00-f9d1-11e8-916a-09499f7b2fd0.jpg
 {% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=1 %}
+{% include gallery images=images caption="" cols=2 %}
 
 ## Personel Information
 
@@ -53,7 +53,6 @@ comments: false
 
 {% capture images %}
     https://user-images.githubusercontent.com/19748922/49603481-bdeff900-f9ce-11e8-8a14-2fb2eabb19df.jpg
-    https://user-images.githubusercontent.com/19748922/49604590-977f8d00-f9d1-11e8-916a-09499f7b2fd0.jpg
     https://user-images.githubusercontent.com/19748922/49604779-2a202c00-f9d2-11e8-92ff-31a11aec4430.JPG
     https://user-images.githubusercontent.com/19748922/49604817-3f955600-f9d2-11e8-94d9-bc5667b2ccb3.JPG
     https://user-images.githubusercontent.com/19748922/49604834-4d4adb80-f9d2-11e8-8412-35469c4ac079.JPG
