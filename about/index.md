@@ -12,12 +12,19 @@ comments: false
 {% endcapture %}
 {% include gallery images=images caption="" cols=1 %}
 
+
+
+
+
 ## Personel Information
 
 * Name : 함용재
 * Birth : 1993 - 01 - 12
 * Phone : +82 10 6484 2434
 * E-mail : bbb12388@gmail.com 
+
+
+
 
 
 ## What I can do
@@ -34,6 +41,9 @@ comments: false
 * Solidity ( Etherium Development ) 
 
 
+
+
+
 ## About myself
 
 ‘혜안(慧眼)’을 갖추고 있는 개발자 함용재입니다.
@@ -45,6 +55,7 @@ comments: false
 스스로 생산자이자 동시에 소비자로서 쌓아올린 경험은, 클라이언트에게 보다 섬세하고 직접적이며, 실용적인 서비스를 제공할 것입니다.
 
 최신 트랜드 기술을 끊임없이 연구해, 이용자들에게 보이지 않는 작은 부분까지도 가장 효율적인 방법으로 구현하는 것이 저의 자부심입니다.
+
 
 
 
