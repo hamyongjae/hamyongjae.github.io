@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: post
 title: Syntax Highlighting Post
 date: 2013-08-16
@@ -32,7 +32,10 @@ To modify styling and highlight colors edit `/assets/css/syntax.css`.
     {% if page.next %}
         <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
     {% endif %}
-</nav><!-- /.pagination -->
+</nav>
+// /.pagination 
+
+
 {% endraw %}
 {% endhighlight %}
 
@@ -67,7 +70,8 @@ end
         {% if page.next %}
             <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
         {% endif %}
-    </nav><!-- /.pagination -->
+    </nav>
+    // /.pagination 
     {% endraw %}
 
 
@@ -91,7 +95,8 @@ To modify styling and highlight colors edit `/assets/css/syntax.css`. Line numbe
     {% if page.next %}
         <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
     {% endif %}
-</nav><!-- /.pagination -->{% endraw %}
+</nav>
+// /.pagination {% endraw %}
 ~~~
 
 ~~~ ruby
@@ -118,4 +123,4 @@ end
 
 An example of a Gist embed below.
 
-{% gist mmistakes/6589546 %}
+{% gist mmistakes/6589546 %} --> 
