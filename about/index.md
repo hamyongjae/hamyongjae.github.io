@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-tags: [about, Jekyll, theme]
+tags: [Portfolio, Developer]
 date: 2018-12-07
 comments: false
 ---
@@ -11,6 +11,8 @@ comments: false
     https://user-images.githubusercontent.com/19748922/49607065-52ab2480-f9d8-11e8-82d3-309151b9a214.jpg
 {% endcapture %}
 {% include gallery images=images caption="" cols=1 %}
+
+<center><iframe src="https://ghbtns.com/github-btn.html?user=hamyongjae&type=follow&count=true&size=large" frameborder="0" scrolling="0" width="220px" height="30px"></iframe></center>
 
 
 
@@ -71,7 +73,7 @@ comments: false
     https://user-images.githubusercontent.com/19748922/49606459-c8ae8c00-f9d6-11e8-9f51-b1ebbbf55612.jpg
     https://user-images.githubusercontent.com/19748922/49606458-c8ae8c00-f9d6-11e8-92cf-dd08f181e49f.jpg
 {% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=2 %}
+{% include gallery images=images caption="Photo Of Yongjae" cols=2 %}
 <!--
 See a [live version of Moon](http://taylantatli.github.io/Moon) hosted on GitHub.
 
