@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: post
 title:  "MathJax Example"
 date:   2015-08-10
@@ -49,4 +49,4 @@ $$
       y_n
     \end{array} \right)
 \end{align*}
-$$ -->
+$$

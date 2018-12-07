@@ -1,4 +1,4 @@
-<!-- ---
+---
 layout: post
 title:  "A Post with a Video"
 date:   2016-03-15
@@ -17,4 +17,4 @@ Not sure if this only effects Kramdown or if it's an issue with Markdown in gene
 
 {% highlight html %}
 <iframe width="560" height="315" src="//www.youtube.com/embed/SU3kYxJmWuQ" frameborder="0"> </iframe>
-{% endhighlight %} -->
+{% endhighlight %}
