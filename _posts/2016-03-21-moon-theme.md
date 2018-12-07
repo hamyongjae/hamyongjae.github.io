@@ -16,7 +16,9 @@ comments: true
 
 ![img_portfolio1_logo](https://user-images.githubusercontent.com/19748922/49650938-2d1e2980-fa71-11e8-9865-e0e0ca7e1592.jpg)
     
-<center><b>Spring Framework</b>기반 동행을 구해주는 플랫폼 사이트</center>
+<center><b>나 혼자 못산다</b> Website Main Page</center>
+
+나홀로족이 유행하는 시대에 반대로 혼자 잘 못 하는 사람들을 위한 동행을 구해주는 것을 목표로 하는 **Spring Framework**기반의 웹 프로젝트를 1개월 동안 3명의 팀원이 함께 진행하였습니다.
 
 <iframe src="https://ghbtns.com/github-btn.html?user=hamyongjae&repo=hamyongjae.github.io&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
@@ -39,7 +41,6 @@ comments: true
 {% capture images %}
 	https://user-images.githubusercontent.com/19748922/49650958-3effcc80-fa71-11e8-86f2-2a338b50dce7.jpg
 	https://user-images.githubusercontent.com/19748922/49650959-3f986300-fa71-11e8-942c-e0dd03c3a97f.jpg
-    https://user-images.githubusercontent.com/19748922/49651119-b6356080-fa71-11e8-9bdc-88e1b3fb6042.jpg
     https://user-images.githubusercontent.com/19748922/49651121-b6cdf700-fa71-11e8-8c56-8ba0b8489b7d.jpg
 {% endcapture %}
 {% include gallery images=images caption="Screenshots of Project" cols=3 %}
