@@ -2,7 +2,7 @@
 layout: post
 title:  "나혼자 못산다"
 date:   2018-12-07
-excerpt: "Minimal, one column Jekyll theme for your blog."
+excerpt: "Spring Framework기반 동행을 구해주는 사이트"
 project: true
 tag:
 - Spring Framework
@@ -10,17 +10,15 @@ tag:
 - CSS
 - JavaScript
 - Bootstrap
+- MVC Model
 comments: true
 ---
 
-![Moon Homepage](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)
+![img_portfolio1_logo](https://user-images.githubusercontent.com/19748922/49650938-2d1e2980-fa71-11e8-9865-e0e0ca7e1592.jpg)
     
 <center><b>Spring Framework</b>기반 동행을 구해주는 플랫폼 사이트</center>
 
-     * Fork the [Moon repo](https://github.com/hamyongjae/hamyongjae.github.io/fork)
-
-
-<!-- <iframe src="https://ghbtns.com/github-btn.html?user=hamyongjae&repo=hamyongjae.github.io&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>     -->
+<iframe src="https://ghbtns.com/github-btn.html?user=hamyongjae&repo=hamyongjae.github.io&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 
 
 ## 사용 기술
@@ -30,7 +28,7 @@ comments: true
 * Apache Tomcat 9.0 
 * JSP / Servlet
 * Spring Framework MVC Model
-* OracleDB (MariaDB) / JDBC / Mybatis 
+* OracleDB (MariaDB) / JDBC / Mybatis
 * 네이버 지도 API
 * Amazon EC2 - AWS
 
@@ -39,9 +37,10 @@ comments: true
 ## Preview
 
 {% capture images %}
-	https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png
-	https://cloud.githubusercontent.com/assets/754514/14509717/61ad05ae-01d6-11e6-85ae-5a817dd8763b.png
-	https://cloud.githubusercontent.com/assets/754514/14509714/61a89708-01d6-11e6-8fcd-74b002a060df.png
+	https://user-images.githubusercontent.com/19748922/49650958-3effcc80-fa71-11e8-86f2-2a338b50dce7.jpg
+	https://user-images.githubusercontent.com/19748922/49650959-3f986300-fa71-11e8-942c-e0dd03c3a97f.jpg
+    https://user-images.githubusercontent.com/19748922/49651119-b6356080-fa71-11e8-9bdc-88e1b3fb6042.jpg
+    https://user-images.githubusercontent.com/19748922/49651121-b6cdf700-fa71-11e8-8c56-8ba0b8489b7d.jpg
 {% endcapture %}
 {% include gallery images=images caption="Screenshots of Project" cols=3 %}
 
