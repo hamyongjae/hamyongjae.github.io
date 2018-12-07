@@ -1,34 +1,40 @@
 ---
 layout: post
-title:  "Moon Jekyll Theme"
-date:   2016-04-06
+title:  "나혼자 못산다"
+date:   2018-12-07
 excerpt: "Minimal, one column Jekyll theme for your blog."
 project: true
 tag:
-- jekyll 
-- moon
-- blog
-- about
-- theme
+- Spring Framework
+- HTML5
+- CSS
+- JavaScript
+- Bootstrap
 comments: true
 ---
 
-![Moon Homepage](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)    
+![Moon Homepage](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)
     
-<center><b>Moon</b> is a minimal, one column jekyll theme.</center>
-     
- I'm not a developer or designer. And I don't add footer to show who did this theme. If you like this theme or using it, please give a **star** for motivation, It makes me happy.
+<center><b>Spring Framework</b>기반 동행을 구해주는 플랫폼 사이트</center>
 
-<iframe src="https://ghbtns.com/github-btn.html?user=TaylanTatli&repo=Moon&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>    
-      
-## Installation
-* Fork the [Moon repo](https://github.com/TaylanTatli/Moon/fork)
-* Edit `_config.yml` file.
-* Remove sample posts from `_posts` folder and add yours.
-* Edit `index.md` file in `about` folder.
-* Change repo name to `YourUserName.github.io`    
-     
-That's all.
+     * Fork the [Moon repo](https://github.com/hamyongjae/hamyongjae.github.io/fork)
+
+
+<!-- <iframe src="https://ghbtns.com/github-btn.html?user=hamyongjae&repo=hamyongjae.github.io&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>     -->
+
+
+## 사용 기술
+* HTML5 / CSS3.0 / JavaScropt
+* Bootstrap
+* jQuery / AJAX 
+* Apache Tomcat 9.0 
+* JSP / Servlet
+* Spring Framework MVC Model
+* OracleDB (MariaDB) / JDBC / Mybatis 
+* 네이버 지도 API
+* Amazon EC2 - AWS
+
+
 
 ## Preview
 
@@ -37,10 +43,10 @@ That's all.
 	https://cloud.githubusercontent.com/assets/754514/14509717/61ad05ae-01d6-11e6-85ae-5a817dd8763b.png
 	https://cloud.githubusercontent.com/assets/754514/14509714/61a89708-01d6-11e6-8fcd-74b002a060df.png
 {% endcapture %}
-{% include gallery images=images caption="Screenshots of Moon Theme" cols=3 %}
+{% include gallery images=images caption="Screenshots of Project" cols=3 %}
 
 ---
-
+<!--
 {% capture images %}
 	https://cloud.githubusercontent.com/assets/754514/14509718/61b09a20-01d6-11e6-8da1-4202ae4d83cd.png
 	https://cloud.githubusercontent.com/assets/754514/14509715/61aa9d00-01d6-11e6-81a6-c6837edf2e84.png
@@ -157,4 +163,4 @@ Found a bug or aren't quite sure how something works? By all means [file a GitHu
 
 ## License
 
-This theme is free and open source software, distributed under the MIT License. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer.
+This theme is free and open source software, distributed under the MIT License. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer. -->
