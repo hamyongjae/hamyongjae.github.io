@@ -2,7 +2,7 @@
 layout: post
 title:  "Chrome Extension을 활용한 얼굴인식 피격 플랫폼"
 date:   2018-12-09
-excerpt: "Chrome Extension / Naver Clova 얼굴인식 / React / Node.js / ES6 / Express / MongoDB"
+excerpt: "Chrome Extension / Naver Clova 얼굴인식 / React / Node.js / ES6 / Express / MongoDB / Heroku"
 project: true
 tag:
 - Chrome Extension
@@ -12,10 +12,11 @@ tag:
 - ES6
 - Express
 - MongoDB
+- Heroku
 comments: true
 ---
 
-![img_portfolio1_logo](https://user-images.githubusercontent.com/19748922/49650938-2d1e2980-fa71-11e8-9865-e0e0ca7e1592.jpg)
+![portfolio4_main](https://user-images.githubusercontent.com/19748922/49681776-9ee68980-faea-11e8-8ba5-f3d5d25ecc8d.jpg)
     
 <center>
 <!-- <iframe src="https://ghbtns.com/github-btn.html?user=hamyongjae&repo=Spring_project1_Oracle&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> -->
