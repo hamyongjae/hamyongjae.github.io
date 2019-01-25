@@ -1,9 +1,10 @@
 # Site navigation links
-
+- title: Diary
+  url: /diary/
+- title: Spring
+  url: /spring/
+- title: Algorithm
+  url: /algorithm/
 - title: Projects
   url: /projects/
-- title: spring
-  url: /spring/
-- title: algorithm
-  url: /algorithm/
-  
+
