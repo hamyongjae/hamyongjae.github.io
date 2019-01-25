@@ -111,13 +111,10 @@
 
         </li>
         <li>
-            <a href="#">Posts</a>
-            <ul class="dl-submenu">
-                <li><a href="{{ site.url }}/posts/">All Posts</a></li>
-                <li><a href="{{ site.url }}/algorithm/">Algorithm</a></li>
-                <li><a href="{{ site.url }}/spring/">Spring</a></li>
-                <li><a href="{{ site.url }}/tags/">All Tags</a></li>
-            </ul>
+            <a href="{{ site.url }}/posts/">Recent Posts</a>
+        </li>
+        <li>
+            <a href="{{ site.url }}/tags/">All Tags</a>
         </li>
         {% for link in site.data.navigation %}
         {% if link.url contains 'http' %}
